@@ -1,4 +1,4 @@
-# Mini ERP Escolar - Milestones Practice
+# Milestones Practice
 
 Este repositorio es para practicar:
 - Milestones
