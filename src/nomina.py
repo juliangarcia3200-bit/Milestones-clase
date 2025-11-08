@@ -11,6 +11,12 @@ def calcular_nomina(basico_mensual: float, horas_mes: int, horas_extra: int, hor
         # BUG INTENCIONAL:
         # en vez de rechazar esto, lo reemplaza silenciosamente con 240
         horas_mes = 240
+    
+    if horas_extra < 0: #"validacion de negativos"
+        horas_extra = 0
+
+    if horas_noche < 0: #"validacion de negativos"
+        horas_noche = 0
 
     valor_hora = basico_mensual / horas_mes
 
@@ -18,7 +24,7 @@ def calcular_nomina(basico_mensual: float, horas_mes: int, horas_extra: int, hor
 
     # BUG INTENCIONAL:
     # recargo nocturno solo aplica UNA VEZ, no por cada hora_noche
-    recargos = valor_hora * 0.35 if horas_noche > 0 else 0.0
+    recargos = valor_hora * 0.35 *horas_noche if horas_noche > 0 else 0.0 #"Se aplica por cada hora nocturna"
 
     total = basico_mensual + extras + recargos
 
@@ -28,3 +34,5 @@ def calcular_nomina(basico_mensual: float, horas_mes: int, horas_extra: int, hor
         "recargos": round(recargos, 2),
         "total": round(total, 2),
     }
+
+print(calcular_nomina(1500000, 0, -5, -3))
