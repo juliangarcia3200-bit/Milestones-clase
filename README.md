@@ -92,16 +92,18 @@ python -m src.main
 Si necesitas integrar funcionalidades de WhatsApp en tus proyectos, aquí encontrarás recursos útiles:
 
 ### Repositorios oficiales de WhatsApp
-- **WhatsApp Business API**: [https://github.com/WhatsApp](https://github.com/WhatsApp)
+- **Organización oficial de WhatsApp en GitHub**: [https://github.com/WhatsApp](https://github.com/WhatsApp)
 - **Documentación oficial de WhatsApp Business Platform**: [https://developers.facebook.com/docs/whatsapp](https://developers.facebook.com/docs/whatsapp)
+- **WhatsApp Business API - Meta Developers**: [https://developers.facebook.com/docs/whatsapp/cloud-api](https://developers.facebook.com/docs/whatsapp/cloud-api)
 
 ### Bibliotecas populares de WhatsApp API en GitHub
 
 #### Para Python:
-- **whatsapp-python**: Biblioteca para interactuar con WhatsApp Business API
-  - Buscar: `whatsapp api python` en GitHub
 - **yowsup**: Cliente de WhatsApp para Python
   - [https://github.com/tgalal/yowsup](https://github.com/tgalal/yowsup)
+- **heyoo**: Cliente Python para WhatsApp Cloud API
+  - [https://github.com/Neurotech-HQ/heyoo](https://github.com/Neurotech-HQ/heyoo)
+- Para más opciones, busca: `whatsapp api python` en GitHub
 
 #### Para JavaScript/Node.js:
 - **whatsapp-web.js**: Biblioteca para conectarse a WhatsApp Web
@@ -110,8 +112,9 @@ Si necesitas integrar funcionalidades de WhatsApp en tus proyectos, aquí encont
   - [https://github.com/WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)
 
 #### Para PHP:
-- **whatsapp-cloud-api**: Cliente PHP para WhatsApp Cloud API
-  - Buscar: `whatsapp cloud api php` en GitHub
+- **whatsapp-cloud-api-php**: Cliente PHP para WhatsApp Cloud API
+  - [https://github.com/netflie/whatsapp-cloud-api](https://github.com/netflie/whatsapp-cloud-api)
+- Para más opciones, busca: `whatsapp cloud api php` en GitHub
 
 ### Cómo buscar más repositorios de WhatsApp API en GitHub
 1. Ve a [GitHub.com](https://github.com)
