@@ -86,3 +86,49 @@ python -m src.main
 - Issues creados, etiquetados y asignados a cada Milestone.
 - Pull Requests que cierran Issues.
 - Captura de pantalla del progreso de cada Milestone (porcentaje de completado).
+
+## Recursos adicionales: API de WhatsApp en GitHub
+
+Si necesitas integrar funcionalidades de WhatsApp en tus proyectos, aquí encontrarás recursos útiles:
+
+### Repositorios oficiales de WhatsApp
+- **Organización oficial de WhatsApp en GitHub**: [https://github.com/WhatsApp](https://github.com/WhatsApp)
+- **Documentación oficial de WhatsApp Business Platform**: [https://developers.facebook.com/docs/whatsapp](https://developers.facebook.com/docs/whatsapp)
+- **WhatsApp Business API - Meta Developers**: [https://developers.facebook.com/docs/whatsapp/cloud-api](https://developers.facebook.com/docs/whatsapp/cloud-api)
+
+### Bibliotecas populares de WhatsApp API en GitHub
+
+#### Para Python:
+- **yowsup**: Cliente de WhatsApp para Python
+  - [https://github.com/tgalal/yowsup](https://github.com/tgalal/yowsup)
+- **heyoo**: Cliente Python para WhatsApp Cloud API
+  - [https://github.com/Neurotech-HQ/heyoo](https://github.com/Neurotech-HQ/heyoo)
+- Para más opciones, busca: `whatsapp api python` en GitHub
+
+#### Para JavaScript/Node.js:
+- **whatsapp-web.js**: Biblioteca para conectarse a WhatsApp Web
+  - [https://github.com/pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)
+- **Baileys**: Biblioteca ligera de WhatsApp Web API
+  - [https://github.com/WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)
+
+#### Para PHP:
+- **whatsapp-cloud-api-php**: Cliente PHP para WhatsApp Cloud API
+  - [https://github.com/netflie/whatsapp-cloud-api](https://github.com/netflie/whatsapp-cloud-api)
+- Para más opciones, busca: `whatsapp cloud api php` en GitHub
+
+### Cómo buscar más repositorios de WhatsApp API en GitHub
+1. Ve a [GitHub.com](https://github.com)
+2. Busca términos como:
+   - `whatsapp api`
+   - `whatsapp business api`
+   - `whatsapp cloud api`
+   - `whatsapp bot`
+3. Filtra por lenguaje de programación en el panel izquierdo
+4. Ordena por "Most stars" para ver los repositorios más populares
+
+### Consejos para trabajar con WhatsApp API
+- Lee siempre la documentación oficial antes de comenzar
+- Revisa las políticas de uso de WhatsApp Business
+- Verifica que los repositorios estén activamente mantenidos (commits recientes)
+- Lee los issues y pull requests para entender problemas comunes
+- Respeta los límites de tasa (rate limits) de la API
