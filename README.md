@@ -86,3 +86,46 @@ python -m src.main
 - Issues creados, etiquetados y asignados a cada Milestone.
 - Pull Requests que cierran Issues.
 - Captura de pantalla del progreso de cada Milestone (porcentaje de completado).
+
+## Recursos adicionales: API de WhatsApp en GitHub
+
+Si necesitas integrar funcionalidades de WhatsApp en tus proyectos, aquí encontrarás recursos útiles:
+
+### Repositorios oficiales de WhatsApp
+- **WhatsApp Business API**: [https://github.com/WhatsApp](https://github.com/WhatsApp)
+- **Documentación oficial de WhatsApp Business Platform**: [https://developers.facebook.com/docs/whatsapp](https://developers.facebook.com/docs/whatsapp)
+
+### Bibliotecas populares de WhatsApp API en GitHub
+
+#### Para Python:
+- **whatsapp-python**: Biblioteca para interactuar con WhatsApp Business API
+  - Buscar: `whatsapp api python` en GitHub
+- **yowsup**: Cliente de WhatsApp para Python
+  - [https://github.com/tgalal/yowsup](https://github.com/tgalal/yowsup)
+
+#### Para JavaScript/Node.js:
+- **whatsapp-web.js**: Biblioteca para conectarse a WhatsApp Web
+  - [https://github.com/pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)
+- **Baileys**: Biblioteca ligera de WhatsApp Web API
+  - [https://github.com/WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)
+
+#### Para PHP:
+- **whatsapp-cloud-api**: Cliente PHP para WhatsApp Cloud API
+  - Buscar: `whatsapp cloud api php` en GitHub
+
+### Cómo buscar más repositorios de WhatsApp API en GitHub
+1. Ve a [GitHub.com](https://github.com)
+2. Busca términos como:
+   - `whatsapp api`
+   - `whatsapp business api`
+   - `whatsapp cloud api`
+   - `whatsapp bot`
+3. Filtra por lenguaje de programación en el panel izquierdo
+4. Ordena por "Most stars" para ver los repositorios más populares
+
+### Consejos para trabajar con WhatsApp API
+- Lee siempre la documentación oficial antes de comenzar
+- Revisa las políticas de uso de WhatsApp Business
+- Verifica que los repositorios estén activamente mantenidos (commits recientes)
+- Lee los issues y pull requests para entender problemas comunes
+- Respeta los límites de tasa (rate limits) de la API
